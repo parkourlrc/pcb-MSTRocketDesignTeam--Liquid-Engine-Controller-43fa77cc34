@@ -1,5 +1,4 @@
-STM32F04:
-https://www.digikey.com/en/products/detail/stmicroelectronics/STM32F042K6T6/4815294
+STM32F04: https://www.digikey.com/en/products/detail/stmicroelectronics/STM32F042K6T6/4815294
 
 3V3 LDO: 
 https://www.digikey.com/en/products/detail/diodes-incorporated/AP2112K-3-3TRG1/4470746?s=N4IgTCBcDaIIIAUwEZlgNIFoDMA6bIAugL5A
@@ -14,10 +13,24 @@ ADC:
 https://www.digikey.com/en/products/detail/microchip-technology/MCP3564RT-E-ST/12807301
 
 Current Sensor:
-https://www.digikey.com/en/products/detail/allegro-microsystems/ACS37041KLHBLT-030B3/25672469
+https://www.digikey.com/en/products/detail/texas-instruments/TMCS1108A2BQDR/13692773
 
 NOR Flash Memory:
 https://www.digikey.com/en/products/detail/winbond-electronics/W25Q128JVSIQ/5803943
 
 MOSFET:
 https://www.digikey.com/en/products/detail/nexperia-usa-inc/BUK6Y33-60PX/12325065?s=N4IgTCBcDaIEIFUDSA2AmgZgwWhQBgAUANEAXQF8g
+
+Push Button:
+
+Buck Converter:
+https://www.digikey.com/en/products/detail/texas-instruments/LMR33640ADDAR/11308782?s=N4IgTCBcDaIDIFkBKBmFA2ALABgIIBF9ckQBdAXyA
+
+Fuse:
+https://www.digikey.com/en/products/detail/schurter-inc/3413-0332-22/2644185
+
+USB-C Connector:
+https://www.digikey.com/en/products/detail/molex/1054500101/5843890
+
+Power Connector:
+https://www.digikey.com/en/products/detail/kaifeng-electronics/DFT-XT30UPB-M30-G-Y/29220710?s=N4IgTCBcDaIBoBUDMAGAqgBQEIFoCyABAMYD2AdmQKZEAuJATgM4gC6AvkA

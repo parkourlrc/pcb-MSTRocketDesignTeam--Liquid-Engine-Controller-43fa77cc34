@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.0,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [],
@@ -224,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -453,6 +469,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -502,14 +519,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "+VBATT"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "+11V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "idf": "",
-      "netlist": "",
+      "netlist": "./",
       "plot": "",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -632,17 +663,13 @@
         "uuid": "ddc3afde-f483-4b2a-b640-c5cafbb728fa"
       }
     ],
-    "used_designators": "U1,#PWR3-11,C1-7",
+    "used_designators": "U7,J3-4,J8-9",
     "variants": []
   },
   "sheets": [
     [
       "ddc3afde-f483-4b2a-b640-c5cafbb728fa",
       "27LEC"
-    ],
-    [
-      "5e01c8a6-cb8c-40d4-8dcd-bddc7787cc07",
-      "BuckConverter"
     ]
   ],
   "text_variables": {},
